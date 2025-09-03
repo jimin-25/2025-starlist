@@ -1,0 +1,53 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: url('/image/tree.jpg') no-repeat center center;
+  background-size: 800px auto;
+}
+
+.home-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.home-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.home-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+.home-button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 100px;
+}
+
+.main-button {
+    background: #ffd700;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.main-button:hover {
+  background-color: #ffdd44;
+  transform: scale(1.05);
+}
