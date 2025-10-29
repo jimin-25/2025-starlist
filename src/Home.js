@@ -29,6 +29,13 @@ function Home() {
                     onClick={() => navigate("/signup")}>
                         가입하기
                 </button> 
+
+                <button 
+                    className="main-button"
+                    onClick={() => navigate("/main")}>
+                        시작하기
+                </button> 
+
         
             </div> 
         </div>
