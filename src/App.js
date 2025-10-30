@@ -4,7 +4,6 @@ import Home from './Home.js';
 import SignUp from './Signup.js';
 import Login from './Login.js';
 import Main from "./Main.js";
-import Savegoal from "./Savegoal.js"
 
 function App() { 
     const [CurrentUser, setCurrentUser] = useState(null);
@@ -24,7 +23,6 @@ function App() {
                     element={
                         <Login onLoginSuccess={handleLoginSuccess} />
                     } />
-                <Route path="/savegoal" element={<Savegoal />}/>
             </Routes>
         </Router>
     )

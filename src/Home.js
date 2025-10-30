@@ -15,7 +15,8 @@ function Home() {
                 <p className="home-description">
                     할 일을 입력하고 실천하세요!<br />
                     하루의 일을 모두 완료하면 별을 받습니다 !<br />
-                    별 50개를 모으고 자신이 직접 선정한 보상을 받아보세요 !!
+                    별 50개를 모으고 
+                    자신이 직접 선정한 보상을 받아보세요 !!
                 </p>
             </div>
             <div className="home-button">
