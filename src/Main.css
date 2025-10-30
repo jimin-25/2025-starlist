@@ -204,8 +204,9 @@
 
   .goal-display {
     font-size: 14px;
-    padding: 10px;
-    width: 90%;
+    padding: 12p 15px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .goal-section {
@@ -221,8 +222,10 @@
   }
 
   .todo-input input {
-    width: 90%;
+    width: 100%;
     font-size: 14px;
+    box-sizing: border-box;
+    padding: 10px 15px;
   }
 
   .todo-item span {
