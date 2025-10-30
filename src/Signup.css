@@ -56,3 +56,68 @@
     background-color: #dadada;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .signup-page {
+        width: 90%;
+        padding: 0 20px;
+        border-radius: 10px;
+    }
+
+    .signup-title {
+        margin-top: 60px;
+        font-size: 22px;
+    }
+
+    .signup-subtitle {
+        font-size: 15px;
+    }
+
+    .input {
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .signup-button {
+        height: 38px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-page {
+        position: relative;
+        width: 95%;
+        height: auto;
+        min-height: 100vh;
+        padding: 20px 15px;
+        transform: none;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .signup-title {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .signup-subtitle {
+        font-size: 14px;
+    }
+
+    .signup-input {
+        padding: 5px 0 20px 0;
+    }
+
+    .input {
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .signup-button {
+        height: 36px;
+        font-size: 14px;
+        border-radius: 32px;
+    }
+}

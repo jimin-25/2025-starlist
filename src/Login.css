@@ -56,3 +56,67 @@
     color: white;
 }
 
+@media (max-width: 768px) {
+    .login-page {
+        width: 90%; 
+        padding: 0 20px;
+        border-radius: 10px;
+    }
+
+    .login-title {
+        margin-top: 60px;
+        font-size: 22px;
+    }
+
+    .login-subtitle {
+        font-size: 15px;
+    }
+
+    .input {
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .login-button {
+        height: 38px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-page {
+        position: relative;
+        width: 95%;
+        height: auto;
+        min-height: 100vh; 
+        padding: 20px 15px;
+        transform: none;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .login-title {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .login-subtitle {
+        font-size: 14px;
+    }
+
+    .login-input {
+        padding: 5px 0 20px 0;
+    }
+
+    .input {
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .login-button {
+        height: 36px;
+        font-size: 14px;
+        border-radius: 32px;
+    }
+}

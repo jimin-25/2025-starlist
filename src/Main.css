@@ -170,3 +170,66 @@
   color: #5fb472;
 }
 
+@media (max-width: 768px) {
+  .main-container {
+    padding: 20px 15px;
+  }
+
+  .goal-display {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .react-calendar {
+    width: 100%;
+  }
+
+  .todo-input {
+    flex-direction: column;
+  }
+
+  .todo-input button {
+    width: 100%;
+  }
+
+  .goal-section button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    padding: 15px 10px;
+  }
+
+  .goal-display {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .goal-section {
+    padding: 15px;
+  }
+
+  .calendar-section {
+    padding: 15px;
+  }
+
+  .todo-section {
+    padding: 15px;
+  }
+
+  .todo-input input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .todo-item span {
+    font-size: 14px;
+  }
+
+  .react-calendar__tile {
+    font-size: 0.8rem;
+    padding: 8px 0;
+  }
+}

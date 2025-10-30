@@ -51,3 +51,64 @@
   background-color: #ffdd44;
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .home-page {
+    background-size: cover;
+    padding: 20px;
+  }
+
+  .home-content {
+    padding: 30px;
+  }
+
+  .home-title {
+    font-size: 32px;
+  }
+
+  .home-description {
+    font-size: 18px;
+  }
+
+  .home-button {
+    flex-direction: column; 
+    gap: 20px;
+  }
+
+  .main-button {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    background-size: cover;
+    height: auto; 
+    padding: 30px 10px;
+  }
+
+  .home-content {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .home-title {
+    font-size: 24px;
+  }
+
+  .home-description {
+    font-size: 16px;
+  }
+
+  .home-button {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main-button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+}

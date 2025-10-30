@@ -59,3 +59,51 @@
 .goal-input-group button:hover {
   background-color: #1f5d8a;
 }
+
+@media (max-width: 768px) {
+  .goal-section {
+    padding: 14px 16px;
+    margin-bottom: 20px;
+  }
+
+  .goal-display {
+    font-size: 1.1rem;
+  }
+
+  .goal-input-group {
+    flex-direction: column; 
+    gap: 8px;
+  }
+
+  .goal-input-group input,
+  .goal-input-group button {
+    width: 100%; 
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .goal-section {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .goal-display {
+    font-size: 1rem;
+  }
+
+  .goal-input-group {
+    gap: 6px;
+  }
+
+  .goal-input-group input {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  .goal-input-group button {
+    padding: 8px 0;
+    font-size: 0.9rem;
+    border-radius: 6px;
+  }
+}
