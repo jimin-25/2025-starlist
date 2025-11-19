@@ -22,9 +22,10 @@ function Home() {
             <div className="home-button">
                 <button 
                     className="main-button"
-                    onClick={() => navigate("/login")}>
-                        로그인하기
-                </button>
+                    onClick={() => navigate("/main")}>
+                        시작하기
+                </button> 
+
                 <button 
                     className="main-button"
                     onClick={() => navigate("/signup")}>
@@ -33,10 +34,9 @@ function Home() {
 
                 <button 
                     className="main-button"
-                    onClick={() => navigate("/main")}>
-                        시작하기
-                </button> 
-
+                    onClick={() => navigate("/login")}>
+                        로그인하기
+                </button>
         
             </div> 
         </div>

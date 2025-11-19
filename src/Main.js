@@ -64,9 +64,7 @@ function Main() {
     };
 
     const countCompletedDays = () => {
-        return Object.values(todos).filter(todoList =>
-            todoList.length > 0 && todoList.every(todo => todo.completed)
-        ).length;
+         return Object.values(todos).filter(todoList => todoList.length > 0 && todoList.every(todo => todo.completed) ).length;
     };
 
     const saveGoal = () => {
