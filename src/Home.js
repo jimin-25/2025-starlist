@@ -19,25 +19,12 @@ function Home() {
                     자신이 직접 선정한 보상을 받아보세요 !!
                 </p>
             </div>
-            <div className="home-button">
+            <div>
                 <button 
                     className="main-button"
                     onClick={() => navigate("/main")}>
                         시작하기
                 </button> 
-
-                <button 
-                    className="main-button"
-                    onClick={() => navigate("/signup")}>
-                        가입하기
-                </button> 
-
-                <button 
-                    className="main-button"
-                    onClick={() => navigate("/login")}>
-                        로그인하기
-                </button>
-        
             </div> 
         </div>
     )

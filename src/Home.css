@@ -12,6 +12,7 @@
 .home-content {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 40px;
+  margin-top: 40px;
   border-radius: 20px;
   backdrop-filter: blur(10px);
 }
@@ -29,16 +30,11 @@
   color: #e0e0e0;
 }
 
-.home-button {
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
-  gap: 100px;
-}
-
 .main-button {
   background: #ffd700;
   color: #000;
+  width: 180px;
+  margin: 25px;
   padding: 15px 30px;
   border: none;
   border-radius: 10px;
@@ -70,13 +66,8 @@
     font-size: 18px;
   }
 
-  .home-button {
-    flex-direction: column; 
-    gap: 20px;
-  }
-
   .main-button {
-    width: 90%;
+    width: 90px;
     max-width: 300px;
   }
 }
@@ -99,13 +90,6 @@
 
   .home-description {
     font-size: 16px;
-  }
-
-  .home-button {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    padding: 0;
   }
 
   .main-button {
